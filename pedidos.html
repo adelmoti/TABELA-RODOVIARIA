@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedido</title>
+   
+
 </head>
 <body>
     <h1>Pedido</h1>
@@ -50,7 +52,12 @@
     </td>
     <td><Label>Valor do Frete</Label><br>
         <input type="text" id="FRETE" ></td>
-        <td><br><input type="button" id="btn_adiciona" value="Adicionar"></td>
+        <td><br><input type="button" id="btn_adiciona" value="Adicionar" onclick="Evento_adiciona()"></td>
+        <script>
+            function Evento_adiciona(){
+                alert('Item Adicionado com Sucesso !')
+            }
+        </script>
         <td><br><input type="button" id="btn_remove" value="Remover"></td>
 </tr>
 
