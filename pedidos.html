@@ -48,13 +48,20 @@
 
     <td>
 <label for="">Tipo</label><br>
+
 <select name="SELECIONE" id="TIPO">
     <option value="VENDA">Interno</option>
     <option value="DEVOLUCAO">Externo</option>
+</select>
 
     </td>
-    <td><Label>Valor do Frete</Label><br>
-        <input type="text" id="FRETE" ></td>
+    <td><Label>Condição de pagamento</Label><br>
+        <select name="tipo_pagamento" id="tipo_pagamento">
+            <option value="vista"> À VISTA </option>
+            <option value="prazo">PRAZO</option>
+        </select>
+        </tr>
+
         <td><br><input type="button" id="btn_adiciona" value="Adicionar" onclick="Evento_adiciona()"></td>
         <script>
             function Evento_adiciona(){
@@ -62,6 +69,17 @@
             }
         </script>
         <td><br><input type="button" value="Remover"></td>
+</tr>
+<tr>
+<td><label for="transportadora">Transportadora</label><br>
+    <input type="number"></td>
+<td>
+
+    <br>
+    <input type="text">
+
+</td>
+
 </tr>
 
 
