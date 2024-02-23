@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    background-image: url(https://brwrodas.com.br/wp-content/uploads/2020/09/brw-rodas-quadrado-preto.svg);
+    background-repeat: no-repeat; /*comnado para não repetir imagen*/
+    background-position: initial; 
+}
+.estilo_form > input
+{
+    background-color: rgb(154, 169, 182);
+    
+    color: black;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+
+.estilo_form > input::placeholder
+{
+color: aliceblue;
+
+}
+
+.estilo_form > label
+{
+color: aliceblue;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h1, h2{
+text-align: center;
+font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+.ddd
+{
+    border-radius: 5px;
+    color: aliceblue;
+    height: 30px;
+}
