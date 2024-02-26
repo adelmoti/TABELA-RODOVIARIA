@@ -1,9 +1,10 @@
 body{
     background-color: black;
     color: aliceblue;
-    background-image: url(https://brwrodas.com.br/wp-content/uploads/2020/09/brw-rodas-quadrado-preto.svg);
+   /*background-image: url(https://brwrodas.com.br/wp-content/uploads/2020/09/brw-rodas-quadrado-preto.svg);*/ 
     background-repeat: no-repeat; /*comnado para não repetir imagen*/
     background-position: initial; 
+    text-align: center;
 }
 .estilo_form > input
 {
@@ -18,9 +19,9 @@ body{
 
 }
 
-.estilo_form > input::placeholder
+.estilo_form > input::placeholder /*estiliza o placeholder*/
 {
-color: aliceblue;
+color: rgb(148, 3, 3);
 
 }
 
@@ -42,6 +43,24 @@ h2{
 .ddd
 {
     border-radius: 5px;
-    color: aliceblue;
-    height: 30px;
+    color: rgb(14, 17, 20);
+    height: 35px;
+    background-color: rgb(154, 169, 182);
+ 
 }
+    .botao > input
+    {
+border-radius: 5px;
+width: 250px;
+height: 30px;
+background-color: rgb(154, 169, 182);
+cursor: pointer; /* serve para adicionar maozinha do mouse, como se fosse um link*/
+    }
+
+    .botao > input:hover {
+        background-color: rgb(184, 24, 24);
+        color: aliceblue;
+        border-color:black;
+        transition: 0,7s;
+
+    }
